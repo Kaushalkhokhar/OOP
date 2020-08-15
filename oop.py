@@ -57,6 +57,9 @@ class Employee:
         self.first = None
         self.last = None
 
+    # to use this 
+    # del emp_1.fullname willl print Detete Name!
+
     def apply_raise(self):
         self.pay = int(self.pay + self.raise_amt)
 
